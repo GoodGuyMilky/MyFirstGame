@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq.Expressions;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class MyFirstScript : MonoBehaviour
@@ -82,6 +83,20 @@ public class MyFirstScript : MonoBehaviour
         print(money);
 
         // Conditions
+
+        int points = 10;
+
+        if (points == 10)
+        {
+            Debug.Log("Player Has Won!");
+          
+        }
+        if (points != 10)
+        {
+            Debug.Log("Player Has Lost!");
+        }
+
+        // < Less than, <= less than or equal to
     }
 
     // Update is called once per frame
