@@ -28,15 +28,15 @@ public class NewBehaviourScript : MonoBehaviour
             Debug.Log("D");   
         }
 
-        string country;
+        string country = "France";
 
-        if (country == France);
+        if (country == "France")
         {
             Debug.Log("The country is France!");
         }
         else
         {
-            Debug.Log("The Country is not France!")
+            Debug.Log("The Country is not France!");
         }
 
     }
